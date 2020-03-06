@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2d185f6-5783-428e-87f3-e7bfbd27f0f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/chat/client/ClientWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/network/TCPConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/network/TCPConnectionListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/chat/server/ChatServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/chat/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/chat/server/ChatServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +38,28 @@
     <property name="jdk.selected.JAVA_MODULE" value="13" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.server.ChatServer" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583526397711</updated>
       <workItem from="1583526413249" duration="510000" />
-      <workItem from="1583526998025" duration="3079000" />
+      <workItem from="1583526998025" duration="5004000" />
     </task>
     <servers />
   </component>
@@ -66,18 +84,22 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="166" key="#Auto_Import/0.0.1680.1010@0.0.1680.1010" timestamp="1583529909691" />
-    <state x="459" y="175" key="#Project_Structure" timestamp="1583526929263">
+    <state x="459" y="175" key="#Project_Structure" timestamp="1583532069527">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="459" y="175" key="#Project_Structure/0.0.1680.1010@0.0.1680.1010" timestamp="1583526929263" />
+    <state x="459" y="175" key="#Project_Structure/0.0.1680.1010@0.0.1680.1010" timestamp="1583532069527" />
+    <state x="645" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1583531912303">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="645" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1583531912303" />
     <state x="444" y="103" key="CommitChangelistDialog2" timestamp="1583528221142">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="444" y="103" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1583528221142" />
-    <state x="677" y="331" key="FileChooserDialogImpl" timestamp="1583526812464">
+    <state x="677" y="331" key="FileChooserDialogImpl" timestamp="1583531301257">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="677" y="331" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1583526812464" />
+    <state x="677" y="331" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1583531301257" />
     <state x="547" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1583526422146">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
